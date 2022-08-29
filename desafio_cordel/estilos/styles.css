@@ -1,0 +1,28 @@
+@charset "utf-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+header > h1{
+     padding-top: 50px;
+     font-variant: small-caps;
+}
+header > p{
+    padding-bottom: 50px;
+}
+section.texto{
+    color: black;
+    background-color: aqua;
+
+}
+section.imagem{
+    color: black;
+    background-color: antiquewhite;
+
+}
+    
