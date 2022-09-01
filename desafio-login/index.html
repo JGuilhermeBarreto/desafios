@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     
     <title>Login</title>
 
@@ -13,12 +14,33 @@
     <main>
             <section>
             <div id="imagem"></div>
-            <div id="form"></div>
-           
+            <div id="form">
+            <h1>Login</h1>
+            <p>Seja Bem vindo novamente. Faça login para acessar sua conta e poder fazer as configurações desejaveis.</p>
             
-    
-   
-        </section>
+            
+            <form action="login.php" method="post">
+           
+            <div class="campos"> 
+            <i class="material-symbols-outlined"> person</i>
+            
+            <input type="text" name="login" id="ilogin">
+            </div>
+            
+           
+           
+            <div class="campos">
+            <i class="material-symbols-outlined"> key </i>
+            <input type="password" name="senha" id="isenha">
+            
+            </div>
+            <input type="submit" value="Entrar"><br>
+            <input type="submit" value="Esqueci a senha"> 
+           
+        
+            </form>
+        
+     </section>
     </main>
 
     
